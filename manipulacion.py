@@ -12,11 +12,3 @@ np.split(array,3)               #divide el array en 3 subarrays
 np.hstack((array, array1))      #apila los arrays horizontalmente
 np.vstack((array, array1))      #apila los arrays verticalmente
 
-
-"""
-VER LOS SIGUIENTES:
-    numpy.concatenate(): Une arrays a lo largo de un eje.
-    numpy.split(): Divide un array en subarrays.
-    numpy.hstack(): Apila arrays horizontalmente.
-    numpy.vstack(): Apila arrays verticalmente.
-"""
