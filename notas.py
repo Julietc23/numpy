@@ -6,24 +6,6 @@ En Numpy:
     - tupla de dimension y longitud es shape
     - numero total de elementos es size
 """
-    #arrays generado con funciones:
-
-a = np.zeros((2, 4))        #(filas,columnas)
-b = np.ones((2, 4))
-
-print(f"a es: {a}")
-print(f"\nb es: {b}")   #size de 8 axis: 2 dimensiones una de 2 y otra de 4
-
-    #otro tipo de generacion:
-c = np.full((2,3,4),8)
-d = np.empty((2,3))  #no es predecible, inicializa el array con lo que hay en la memoria
-
-    #atajos de arrays:
-a.shape()   #ver shape
-a.ndim()    #ver numero de dimensiones
-a.size()    #elementos
-
-#notas:
 """
     -para entender el np.ones((2,3,4)) hace referencia a 2x3x4, el numero de dimensiones:
 
